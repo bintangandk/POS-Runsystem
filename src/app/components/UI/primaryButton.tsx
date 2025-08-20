@@ -15,7 +15,7 @@ export default function PrimaryButton({
     <button
       type={type}
       onClick={onClick}
-      className={`w-full bg-gray-400 text-white py-2 rounded-lg hover:bg-blue-400 ${className}`}
+      className={`w-full bg-gray-400 text-white py-2 rounded-lg hover:bg-blue-400 shadow-s ${className}`}
     >
       {children}
     </button>
