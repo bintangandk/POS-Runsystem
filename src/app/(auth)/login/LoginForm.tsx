@@ -1,11 +1,10 @@
 import InputField from "../../component/UI/inputField";
 import RememberMe from "../../component/UI/RememberMe";
-import AuthFooter from "../../component/UI/AuthFooter";
+import PrimaryButton from "../../component/UI/primaryButton";
 
 export default function LoginForm() {
   return (
     <div className="w-full max-w-md bg-white p-6 rounded-lg shadow">
-      {/* <img className="text-center" src="/asset/icon/icon-accounting.png" alt="" /> */}
       <p className="text-center text-black font-semibold mb-2 text-[18px]">
         Selamat datang di Accounting+ POS
       </p>
@@ -29,12 +28,7 @@ export default function LoginForm() {
 
         <RememberMe />
 
-        <button
-          type="submit"
-          className="w-full bg-gray-400 text-white py-2 rounded-lg hover:bg-blue-400"
-        >
-          Masuk
-        </button>
+        <PrimaryButton type="submit">Login</PrimaryButton>
       </form>
 
       <div className="text-center mt-4">
@@ -42,8 +36,6 @@ export default function LoginForm() {
           Registrasi sekarang
         </a>
       </div>
-
-      <AuthFooter />
     </div>
   );
 }

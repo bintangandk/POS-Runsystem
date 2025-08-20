@@ -19,6 +19,7 @@ export default function InputField({
     <div>
       <label className="block text-sm font-medium mb-1 text-black">
         {label}
+        {required && <span className="text-red-500 ml-1">*</span>}
       </label>
       <input
         type={type}
