@@ -1,4 +1,4 @@
-import AuthFooter from "../../component/UI/AuthFooter";
+import AuthFooter from "../../components/UI/AuthFooter";
 
 export default function AuthLayout({ children }: { children: React.ReactNode }) {
   return (

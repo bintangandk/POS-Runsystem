@@ -1,6 +1,6 @@
-import InputField from "../../component/UI/inputField";
-import RememberMe from "../../component/UI/RememberMe";
-import PrimaryButton from "../../component/UI/primaryButton";
+import InputField from "../../components/UI/inputField";
+import RememberMe from "../../components/UI/RememberMe";
+import PrimaryButton from "../../components/UI/primaryButton";
 
 export default function LoginForm() {
   return (
