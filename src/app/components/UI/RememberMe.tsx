@@ -5,7 +5,7 @@ export default function RememberMe() {
         <input type="checkbox" className="h-4 w-4" />
         <span className="text-sm text-gray-600">Ingatkan Saya</span>
       </label>
-      <a href="/forgot-password" className="text-sm text-blue-300 hover:underline">
+      <a href="/forgot-password" className="text-sm text-primary-600 hover:underline">
         Lupa Password
       </a>
     </div>
