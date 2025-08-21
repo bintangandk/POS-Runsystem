@@ -1,6 +1,6 @@
 import InputField from "../../components/UI/inputField";
 import RememberMe from "../../components/UI/RememberMe";
-import PrimaryButton from "../../components/UI/primaryButton";
+import PrimaryButton from "../../components/UI/Button";
 import { MdOutlineMail, MdOutlineLock } from "react-icons/md";
 
 export default function LoginForm() {
@@ -18,7 +18,7 @@ export default function LoginForm() {
           className="rounded-full"
         />
       </div>
-      <p className="text-center text-black font-semibold mb-2 text-[22px]">
+      <p className="text-center text-neutral-900 font-semibold mb-2 text-[22px]">
         Selamat datang di Accounting+ POS
       </p>
       <p className="text-center text-gray-500 mb-6 text-[16px]">

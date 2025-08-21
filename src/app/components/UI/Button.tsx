@@ -5,7 +5,7 @@ type Props = {
   className?: string;
 };
 
-export default function PrimaryButton({
+export default function Button({
   children,
   onClick,
   type = "button",
