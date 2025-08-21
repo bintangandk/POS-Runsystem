@@ -1,6 +1,6 @@
 import InputField from "../../components/UI/inputField";
 import RememberMe from "../../components/UI/RememberMe";
-import PrimaryButton from "../../components/UI/Button";
+import Button from "../../components/UI/Button";
 import { MdOutlineMail, MdOutlineLock } from "react-icons/md";
 
 export default function LoginForm() {
@@ -43,7 +43,7 @@ export default function LoginForm() {
 
         <RememberMe />
 
-        <PrimaryButton type="submit">Masuk</PrimaryButton>
+        <Button type="submit" className="hover:bg-blue-400">Masuk</Button>
       </form>
 
       <div className="flex justify-center items-center gap-1 mt-4 text-sm">
